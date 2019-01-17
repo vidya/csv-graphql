@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+
+  p   Please click on
+
+  a(href=`/graphql?query={csv_data}`) csv_data
+  br
+
+  p to view the data
